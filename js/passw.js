@@ -31,7 +31,6 @@ document.getElementById("mio_id").innerHTML = nomeUtente + cognomeUtente + color
 
 
 
-
 // esempio
 
 function changeBackground() {
