@@ -21,4 +21,5 @@ let coloreUtente = prompt("Inserisci il tuo colore preferito");
 console.log(coloreUtente);
 
 
-document.getElementById("mio_id").innerHTML = nomeUtente  + " " + cognomeUtente + " " + coloreUtente + " " + 24;
+
+document.getElementById("mio_id").innerHTML = nomeUtente + cognomeUtente + coloreUtente + 24;
