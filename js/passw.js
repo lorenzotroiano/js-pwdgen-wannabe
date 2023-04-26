@@ -23,3 +23,23 @@ console.log(coloreUtente);
 
 
 document.getElementById("mio_id").innerHTML = nomeUtente + cognomeUtente + coloreUtente + 24;
+
+
+
+
+
+
+
+
+
+// esempio
+
+function changeBackground() {
+    // The working function for changing background color.
+    document.bgColor = document.getElementById("mio_id").value;
+    document.bgColor = document.getElementById("submitColor").value;
+
+    // The code I'd like to use for changing the text simultaneously - however it does not work.
+    document.getElementById("mio_id").style.color = document.getElementById("color").value;
+    document.getElementById("submitColor").style.color = document.getElementById("color").value;
+}
